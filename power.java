@@ -1,3 +1,4 @@
+ import java.util.Scanner;
 public class power {
     public static int prod(int x,int y){
         if(y==1)
@@ -8,6 +9,10 @@ public class power {
 
     }
     public static void main(String[] args) {
-        System.out.println(prod(2,3));
+        System.out.println("enter the value of x,y");
+        Scanner sc=new Scanner(System.in);
+        int x= sc.nextInt();
+        int y=sc.nextInt();
+        System.out.println("the power of value is:"+prod(x,y));
     }
 }

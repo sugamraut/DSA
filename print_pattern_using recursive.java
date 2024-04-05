@@ -1,3 +1,9 @@
+ //Program to print:
+//        1
+//        12
+//        123
+//        1234
+//        12345
  class print_pattern_using_recursive {
    public static void  fun1(int n){
     if(n==1){
