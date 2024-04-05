@@ -172,7 +172,7 @@ class Node {
 }
 
 
-class BSTDemo {
+class BSTDemo{
     public static void main(String[] args) {
         BST tree = new BST();
         tree.insert(8);
